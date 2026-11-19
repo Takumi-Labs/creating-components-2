@@ -1,6 +1,12 @@
 function Nav(props) {
+  const navStyle = {
+    width: "100%",
+    backgroundColor: "pink",
+    padding: "15px",
+  };
+
   return (
-    <nav className="main-nav">
+    <nav style={navStyle} className="main-nav">
       <ul>
         <li>{props.name}</li>
         <li>Home</li>
